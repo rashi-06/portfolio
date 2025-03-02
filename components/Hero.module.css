@@ -1,0 +1,101 @@
+/* Hero Section Styling */
+.heroSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+  background-color: black;
+  color: white;
+  padding: 20px;
+}
+
+/* Main Content */
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* "Hi, I am" Text */
+.introText {
+  font-size: 30px;
+  font-weight: 500;
+  color: white;
+}
+
+/* Flipping Animation */
+.flip {
+  font-size: 40px;
+  font-weight: bold;
+  height: 50px;
+  overflow: hidden;
+  color: #956afa;
+  margin: 10px 0;
+}
+
+.flip > div > div {
+  padding: 5px 15px;
+  font-size: 50px;
+  display: inline-block;
+}
+
+.flip div:first-child {
+  animation: show 6s linear infinite;
+}
+
+@keyframes show {
+  0% { margin-top: -150px; }
+  25% { margin-top: -100px; }
+  50% { margin-top: -50px; }
+  75% { margin-top: 0px; }
+  100% { margin-top: -150px; }
+}
+
+/* Short Description */
+.description {
+  font-size: 18px;
+  max-width: 500px;
+  color: #d1d1d1;
+  margin-top: 20px;
+  line-height: 1.5;
+}
+
+/* Contact Button */
+.contactBtn {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 18px;
+  font-weight: bold;
+  background-color: #956afa;
+  color: white;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+
+.contactBtn:hover {
+  background-color: #7a50c5;
+  transform: scale(1.05);
+}
+
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .flip {
+      font-size: 28px;  /* Smaller font for mobile */
+    }
+  
+    .flip > div > div {
+      font-size: 30px;  /* Adjusted for smaller screens */
+    }
+  
+    .description {
+      font-size: 16px;  /* Smaller text */
+    }
+  
+    .contactBtn {
+      font-size: 16px;
+      padding: 8px 16px;
+    }
+  }
