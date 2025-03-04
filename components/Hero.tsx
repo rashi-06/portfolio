@@ -75,7 +75,7 @@ const Hero: React.FC = () => {
      
       <div className={styles.content}>
         <p className={styles.introText}>Hi, I am</p>
-         
+
         <div className={styles.flip}>
           <div><div>Rashi Sharma</div></div>
           <div><div>a Software Engineer</div></div>
@@ -89,7 +89,7 @@ const Hero: React.FC = () => {
         </p>
 
         <a href="#contact" className={styles.contactBtn}>
-          Let's Connect 🚀
+        {"Let's Connect 🚀"}
         </a>
       </div>
     </section>

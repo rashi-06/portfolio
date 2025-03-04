@@ -1,5 +1,4 @@
-import { FaEnvelope, FaGithub, FaLinkedin, FaTwitter, FaCode } from "react-icons/fa";
-import { SiLeetcode } from "react-icons/si"; // Importing LeetCode icon
+import { FaEnvelope, FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
 
 const Contact = () => {
   return (
@@ -9,8 +8,13 @@ const Contact = () => {
           Get In <span className="text-[#956afa]">Touch</span>
         </h2>
         <p className="text-gray-400 mt-4 text-lg">
-          Feel free to reach out! Whether you have a project in mind or just want to say hi, 
-          my inbox is always open. 🚀
+          I’d love to connect with like-minded individuals! Whether you have an exciting 
+          project, an opportunity to collaborate, or just want to discuss tech, feel free 
+          to reach out. My inbox is always open! 🚀
+        </p>
+        <p className="text-gray-400 mt-2 text-lg">
+          You can find me on various platforms. Drop me a message, and let’s build something 
+          awesome together!
         </p>
 
         {/* Contact Buttons */}

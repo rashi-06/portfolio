@@ -9,15 +9,20 @@ const About = () => {
 
         {/* Short Bio */}
         <p className="text-gray-400 mt-4 text-lg leading-relaxed max-w-3xl">
-          Hey there! I'm <span className="text-white font-semibold">Rashi Sharma</span>,
-          a passionate <span className="text-[#956afa]">Full Stack Developer</span> with experience in
-          **Angular, React.js, Next.js, Spring Boot, and Node.js**. I love solving problems,
-          building scalable applications, and continuously learning new technologies.
+          Hey there! {"I'm"} <span className="text-white font-semibold">Rashi Sharma</span>,
+          a passionate <span className="text-[#956afa] font-semibold">Full Stack Developer</span> with experience in
+          <span className="font-semibold"> Angular, React.js, Next.js, Spring Boot, and Node.js</span>. 
+          I love solving problems, building scalable applications, and continuously learning new technologies.
         </p>
 
+
         <p className="text-gray-400 mt-3 text-lg max-w-3xl">
-          Apart from coding, I enjoy **exploring Machine Learning**, **playing guitar**,
-          and **listening to Imagine Dragons**. 🎸🎵
+          When {"I'm"} not coding, {"you'll"} find me <span className="font-semibold">exploring Machine Learning </span>,  
+          <span className="font-semibold">playing guitar</span>, and <span className="font-semibold">listening to Imagine Dragons</span>. 🎸🎵  
+          I also have a deep love for <span className="font-semibold">cricket and badminton</span>,  
+          and I enjoy the thrill of both playing and watching these sports.  
+          Whether {"it's"} a high-energy jam session or a competitive match,  
+          I find inspiration in everything I do!
         </p>
 
         {/* Contact Me Button - Centered */}
