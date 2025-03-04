@@ -19,7 +19,7 @@ const Navbar = () => {
 
         {/* Desktop Menu */}
         <ul className="hidden md:flex gap-8 text-white font-medium">
-          {["Home", "About", "Skills", "Projects", "Contact"].map((item) => (
+          {["Home", "Skills", "Projects", "About","Contact"].map((item) => (
             <li key={item}>
               <Link
                 to={item.toLowerCase()}

@@ -17,7 +17,7 @@ const Contact = () => {
         <div className="mt-8 flex flex-wrap justify-center gap-6">
           {/* Email */}
           <a
-            href="mailto:rashi@example.com" // Replace with your email
+            href="mailto:rashis0681@gmail.com" // Replace with your email
             className="flex items-center gap-3 bg-[#956afa] text-white px-6 py-3 rounded-lg shadow-md hover:bg-[#7a4ee9] transition"
           >
             <FaEnvelope size={20} /> Email Me
@@ -25,7 +25,7 @@ const Contact = () => {
 
           {/* GitHub */}
           <a
-            href="https://github.com/yourgithub" // Replace with your GitHub profile
+            href="https://github.com/rashi-06" // Replace with your GitHub profile
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-3 border border-[#956afa] text-[#956afa] px-6 py-3 rounded-lg shadow-md hover:bg-[#956afa] hover:text-white transition"
@@ -35,7 +35,7 @@ const Contact = () => {
 
           {/* LinkedIn */}
           <a
-            href="https://linkedin.com/in/yourlinkedin" // Replace with your LinkedIn profile
+            href="https://www.linkedin.com/in/rashi-sharma-b1b548210/" // Replace with your LinkedIn profile
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-3 border border-[#956afa] text-[#956afa] px-6 py-3 rounded-lg shadow-md hover:bg-[#956afa] hover:text-white transition"
@@ -45,7 +45,7 @@ const Contact = () => {
 
           {/* Twitter */}
           <a
-            href="https://twitter.com/yourtwitter" // Replace with your Twitter profile
+            href="https://x.com/rashis23" // Replace with your Twitter profile
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-3 border border-[#956afa] text-[#956afa] px-6 py-3 rounded-lg shadow-md hover:bg-[#956afa] hover:text-white transition"
@@ -53,25 +53,6 @@ const Contact = () => {
             <FaTwitter size={20} /> Twitter
           </a>
 
-          {/* LeetCode */}
-          <a
-            href="https://leetcode.com/yourleetcode" // Replace with your LeetCode profile
-            target="_blank"
-            rel="noopener noreferrer"
-            className="flex items-center gap-3 border border-[#956afa] text-[#956afa] px-6 py-3 rounded-lg shadow-md hover:bg-[#956afa] hover:text-white transition"
-          >
-            <SiLeetcode size={20} /> LeetCode
-          </a>
-
-          {/* GeeksForGeeks */}
-          <a
-            href="https://auth.geeksforgeeks.org/user/yourgfg" // Replace with your GFG profile
-            target="_blank"
-            rel="noopener noreferrer"
-            className="flex items-center gap-3 border border-[#956afa] text-[#956afa] px-6 py-3 rounded-lg shadow-md hover:bg-[#956afa] hover:text-white transition"
-          >
-            <FaCode size={20} /> GeeksForGeeks
-          </a>
         </div>
       </div>
     </section>

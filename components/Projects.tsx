@@ -39,7 +39,7 @@ const projects = [
     title: "Sorting Algorithm Simulation",
     description: "A full-stack MERN e-commerce platform with Stripe payments.",
     image: sorting,
-    github: "https://github.com/yourusername/ecommerce",
+    github: "https://github.com/rashi-06/sorting_simulations",
     demo: "https://sorting-simulations.netlify.app/",
   },
   {
