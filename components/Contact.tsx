@@ -8,12 +8,12 @@ const Contact = () => {
           Get In <span className="text-[#956afa]">Touch</span>
         </h2>
         <p className="text-gray-400 mt-4 text-lg">
-          I’d love to connect with like-minded individuals! Whether you have an exciting 
+          {"I’d"} love to connect with like-minded individuals! Whether you have an exciting 
           project, an opportunity to collaborate, or just want to discuss tech, feel free 
           to reach out. My inbox is always open! 🚀
         </p>
         <p className="text-gray-400 mt-2 text-lg">
-          You can find me on various platforms. Drop me a message, and let’s build something 
+          You can find me on various platforms. Drop me a message, and {"let’s"} build something 
           awesome together!
         </p>
 
