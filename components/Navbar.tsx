@@ -2,6 +2,8 @@
 import { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { Link } from "react-scroll";
+// import logo from "@/public/lo"
+import Image from "next/image";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -12,6 +14,7 @@ const Navbar = () => {
         
         {/* Logo */}
         <Link to="home" smooth={true} duration={500} className="cursor-pointer">
+        {/* <Image src={logo} alt="logo" className="h-10 w-10"  /> */}
           <span className="text-2xl font-bold text-[#956afa]">
             Rashi Sharma
           </span>
