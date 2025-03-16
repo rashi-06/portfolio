@@ -28,7 +28,7 @@ const Hero: React.FC = () => {
         stars.push({
           x: Math.random() * canvas.width,
           y: Math.random() * canvas.height,
-          radius: Math.random() * 3, // Slightly bigger stars
+          radius: Math.random() * 1, // Slightly bigger stars
           speed: Math.random() * 0.2 + 0.1, // Slower speed
         });
       }
@@ -41,7 +41,7 @@ const Hero: React.FC = () => {
       ctx.fillStyle = "rgba(255, 255, 255, 0.8)"; // Soft white stars
 
       // Apply blur effect
-      ctx.shadowBlur = 6;
+      ctx.shadowBlur = 7;
       ctx.shadowColor = "rgba(255, 255, 255, 0.8)";
 
       stars.forEach((star) => {
