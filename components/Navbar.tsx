@@ -2,8 +2,10 @@
 import { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { Link } from "react-scroll";
-// import logo from "@/public/lo"
-import Image from "next/image";
+// import logo from "@/public/logo3.png"
+// import logo from "@/public/logoo.jpg"
+
+// import Image from "next/image";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -13,7 +15,7 @@ const Navbar = () => {
       <div className="max-w-6xl mx-auto flex justify-between items-center px-6 py-4">
         
         {/* Logo */}
-        <Link to="home" smooth={true} duration={500} className="cursor-pointer">
+        <Link to="home" smooth={true} duration={500} className="cursor-pointer flex p-2">
         {/* <Image src={logo} alt="logo" className="h-10 w-10"  /> */}
           <span className="text-2xl font-bold text-[#956afa]">
             Rashi Sharma
